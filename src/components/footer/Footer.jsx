@@ -17,12 +17,12 @@ function Footer() {
             </ul>
 
             <div className="footer_socials">
-                <a href="https://www.facebook.com/kwanz.pruttisarikorn/"><FaFacebookF/></a>
-                <a href="https://www.instagram.com/santa_kwan/"><FiInstagram/></a>
+                <a href="https://www.facebook.com/kwanz.pruttisarikorn/" target="_blank" rel="noreferrer"><FaFacebookF/></a>
+                <a href="https://www.instagram.com/santa_kwan/" target="_blank" rel="noreferrer"><FiInstagram/></a>
             </div>
 
             <div className="footer_copyright">
-                <small>&copy; Kwan. All rights reserved.</small>
+                <small>&copy; 2022 Kwan Wasanta. All rights reserved.</small>
             </div>
         </footer>
     )

@@ -12,12 +12,26 @@
 
 /* css variable */
 :root{
-    --color-bg:#1f1f38;
+    /* --color-bg:#1f1f38;
     --color-bg-variant:#2c2c6c;
     --color-primary:#4db5ff;
     --color-primary-variant:rgba(77,181,255,0.4);
     --color-white:#fff;
-    --color-light:rgba(255,255,255,0.6);
+    --color-light:rgba(255,255,255,0.6); */
+    /* --color-bg:#38381f;
+    --color-bg-variant:#6c5d2c;
+    --color-primary:#ffed4d;
+    --color-primary-variant:rgba(237, 255, 77, 0.4);
+    --color-white:#fff;
+    --color-light:rgba(255, 255, 255, 0.6); */
+    --color-bg:#382e1f;
+    --color-bg-variant:#6c5d2c;
+    /* --color-primary:#ffc14d; */
+    --color-primary:#ffd54d;
+    /* --color-primary:#ffe44d; */
+    --color-primary-variant:rgba(255, 222, 77, 0.4);
+    --color-white:#fff;
+    --color-light:rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
 

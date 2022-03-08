@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-// import Man from "../../assets/man.png"
+import P1 from "../../assets/dome.png"
+import P2 from "../../assets/suite.png"
+import P3 from "../../assets/IVM.png"
 
 function Portfolio() {
     return (
@@ -11,62 +13,32 @@ function Portfolio() {
             <div className="container portfolio_container">
                 <article className='portfolio_item'>
                     <div className="portfolio_item-image">
-                        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt=""/>
+                        <img src={P1} alt=""/>
                     </div>
-                    <h3>This is the project name</h3>
+                    <h3>DoMe List</h3>
                     <div className="portfolio_item-cta">
-                        <a href="https://github.com" className="btn">Github</a>
-                        <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+                        <a href="https://github.com/kwancita/todo" className="btn" target="_blank" rel="noreferrer">Github</a>
+                        <a href="https://domelist.herokuapp.com/" className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
                     <div className="portfolio_item-image">
-                        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt=""/>
+                        <img src={P2} alt=""/>
                     </div>
-                    <h3>This is the project name</h3>
+                    <h3>Suite Finder</h3>
                     <div className="portfolio_item-cta">
-                        <a href="https://github.com" className="btn">Github</a>
-                        <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+                        <a href="https://github.com/kwancita/suite" className="btn" target="_blank" rel="noreferrer">Github</a>
+                        <a href="https://suitefinderp4.herokuapp.com/" className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>
                     </div>
                 </article>
                 <article className='portfolio_item'>
                     <div className="portfolio_item-image">
-                        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt=""/>
+                        <img src={P3} alt=""/>
                     </div>
-                    <h3>This is the project name</h3>
+                    <h3>IVM</h3>
                     <div className="portfolio_item-cta">
-                        <a href="https://github.com" className="btn">Github</a>
-                        <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
-                    </div>
-                </article>
-                <article className='portfolio_item'>
-                    <div className="portfolio_item-image">
-                        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt=""/>
-                    </div>
-                    <h3>This is the project name</h3>
-                    <div className="portfolio_item-cta">
-                        <a href="https://github.com" className="btn">Github</a>
-                        <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
-                    </div>
-                </article>
-                <article className='portfolio_item'>
-                    <div className="portfolio_item-image">
-                        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt=""/>
-                    </div>
-                    <h3>This is the project name</h3>
-                    <div className="portfolio_item-cta">
-                        <a href="https://github.com" className="btn">Github</a>
-                        <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
-                    </div>
-                </article>
-                <article className='portfolio_item'>
-                    <div className="portfolio_item-image">
-                        <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg" alt=""/>
-                    </div>
-                    <h3>This is the project name</h3>
-                    <div className="portfolio_item-cta">
-                        <a href="https://github.com" className="btn">Github</a>
-                        <a href="https://github.com" className="btn btn-primary" target="_blank">Demo</a>
+                        <a href="https://github.com/kwancita/invoice" className="btn" target="_blank" rel="noreferrer">Github</a>
+                        <a href="https://okane101.herokuapp.com/" className="btn btn-primary" target="_blank" rel="noreferrer">Demo</a>
                     </div>
                 </article>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/kwann.jpeg";
-import { MdOutlineCastForEducation } from "react-icons/md";
+import Me from "../../assets/kwan.jpeg";
+import { MdSchool } from "react-icons/md";
 import { FaFreeCodeCamp } from "react-icons/fa"
 import { SiUdemy } from "react-icons/si"
 
@@ -30,16 +30,13 @@ function About() {
               <small>Udemy</small>
             </article>
             <article className="about_card">
-              <MdOutlineCastForEducation className="about_icon" />
-              <h5>Coding Bootcamp</h5>
+              <MdSchool className="about_icon" />
+              <h5>Software Engineer</h5>
               <small>Flatiron school</small>
             </article>
           </div>
           <p>
-            Loperamide may cause serious or life-threatening changes in your
-            heart rhythm, especially in people who have taken more than the
-            recommended amount. Tell your doctor if have or have ever had a
-            prolonged QT interval (a rare heart problem that may cause irregular
+          I am a software engineer passionate about blending client expectations with business goals to deliver excellent & profitable experiences. My goals are to improve the organizational efficiency, productivity, and overall success of various enterprises through effective technical and analytical support. In addition, I am interested in developing my skills and abilities to grow.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
