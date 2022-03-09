@@ -6,7 +6,7 @@ import {FiInstagram} from 'react-icons/fi'
 function Footer() {
     return (
         <footer>
-            <a href="#" className="footer_logo">KWAN</a>
+            {/* <a href="#" className="footer_logo">KWAN WASANTA</a> */}
 
             <ul className="permalinks">
                 <li><a href="#">Home</a></li>
