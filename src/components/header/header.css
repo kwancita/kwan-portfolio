@@ -61,7 +61,7 @@ header {
 }
 
 /* media > tablet */
-
+/* 
 @media screen and (max-width: 2000px){
     img{
         height: 130%;
@@ -69,7 +69,7 @@ header {
     header{
         height:  68vh;
     }
-}
+} */
 
 @media screen and (max-width: 1024px){
     header{
